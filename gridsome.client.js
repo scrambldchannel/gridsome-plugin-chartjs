@@ -12,6 +12,10 @@ import Doughnut from './components/doughnut.js';
 import PolarArea from './components/polarArea.js';
 import Bubble from './components/bubble.js';
 import Scatter from './components/scatter.js'
+
+import GChartJS from './components/g-chartjs.js';
+
+
 export default function (Vue, options, context) {
 
     Vue.component("RadarChart", Radar)
@@ -24,4 +28,5 @@ export default function (Vue, options, context) {
     Vue.component("BubbleChart", Bubble)
     Vue.component("ScatterChart", Scatter)
     
+    Vue.component("GChartjs", GChartJS)
 }   
